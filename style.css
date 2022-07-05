@@ -187,6 +187,27 @@ button{
     font-size: 1.2rem;
 }
 
+@media (max-width: 900px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .side-menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .home{
+        display: flex;
+    }
+    .settings{
+        display: flex;
+    }
+    .home p,
+    .settings p{
+        padding-right: 2rem;
+    }
+}
+
 
 
 
